@@ -1,3 +1,3 @@
-var azure = require("./lib/AzureMobileServicesClient.js");
+var azure = require("../lib/AzureMobileServicesClient");
 
 azure.HelloWorld();
