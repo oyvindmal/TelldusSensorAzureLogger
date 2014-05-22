@@ -1,5 +1,5 @@
 var net = require('net');
-var EventParser = require("./lib/TelldusEventParser.js");
+var EventParser = require("../lib/TelldusEventParser.js");
 // Set up a connection to the TelldusEvents socket
 var conn = net.createConnection('/tmp/TelldusEvents');
  
